@@ -20,3 +20,14 @@
     ```bash
     python -m migration.migration_table_dwh
     ```
+
+## 2. Usage
+
+- Melakukan validasi:
+  ```bash
+  python -m utils.data_validations
+  ```
+- Menjalankan main (ekstrak -> transform -> load):
+  ```bash
+  python main.py
+  ```
